@@ -1,0 +1,133 @@
+.full-page {
+  background-color: #e4f1fe;
+  height: 100%;
+  margin: 0 auto;
+  font-family: "Radio Canada", sans-serif;
+}
+
+.city {
+  font-size: 20px;
+  color: #34495e;
+  text-align: center;
+  padding: 40px 0 20px;
+  font-weight: bold;
+}
+.search {
+  display: block;
+  text-align: center;
+  border-radius: 20px;
+  color: #92b4ec;
+  margin: 0 45px 0 45px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.input-city {
+  border-radius: 20px;
+  width: 500px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+input {
+  border-radius: 20px;
+  padding-left: 10px;
+  width: 75%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-color: #ffd24d;
+  box-shadow: 4px 4px 2px rgb(155, 155, 155);
+}
+.input-button {
+  border-radius: 20px;
+  width: 80px;
+  padding: 0;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #8cc0de;
+  color: white;
+}
+
+.input-button:hover {
+  background-color: #ded98c;
+  color: white;
+}
+.location-button:hover {
+  background-color: #8cc0de;
+  color: white;
+}
+
+.location-button {
+  border-radius: 20px;
+  text-align: center;
+  width: 150px;
+  padding: 0;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #ded98c;
+}
+
+.currentCity {
+  font-weight: bold;
+  font-size: 80px;
+  font-family: "Radio Canada", sans-serif;
+  color: #34495e;
+}
+
+.units {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Radio Canada", sans-serif;
+  color: #34495e;
+}
+
+.weekDays {
+  text-align: center;
+  font-size: 18px;
+  color: #34495e;
+  padding: 14px;
+}
+
+.days {
+  text-align: center;
+  font-size: 24px;
+  color: #34495e;
+  font-weight: bold;
+}
+
+.my-city {
+  margin: 30px 50px;
+  padding: 20px 40px;
+  text-align: center;
+}
+
+.temp {
+  text-align: center;
+  color: #34495e;
+  font-size: 22px;
+}
+
+.win-hum {
+  font-size: 22px;
+  color: #34495e;
+  position: relative;
+  right: 0px;
+  top: 15px;
+  margin: 10px 30px 30px 90px;
+  padding: 10px 90px;
+  list-style: none;
+  text-align: center;
+}
+
+.week-weather {
+  margin: 40px 0px 40px 0px;
+  padding: 60px 0px;
+  text-align: center;
+}
+
+.footer {
+  text-align: center;
+  font-size: 15px;
+  color: grey;
+  padding: 10px 0 0;
+  margin: 10px 0 0;
+}
