@@ -1,8 +1,16 @@
-.full-page {
+body {
   background-color: #e4f1fe;
+}
+
+.full-page {
+  max-width: 900px;
+  background-color: white;
   height: 100%;
-  margin: 0 auto;
+  margin: 60px auto;
   font-family: "Radio Canada", sans-serif;
+  padding: 20px;
+  border: 1px solid #8cc0de;
+  border-radius: 10px;
 }
 
 .city {
@@ -24,7 +32,7 @@
 
 .input-city {
   border-radius: 20px;
-  width: 500px;
+  width: 400px;
   padding-top: 5px;
   padding-bottom: 5px;
 }
@@ -68,7 +76,7 @@ input {
 
 .currentCity {
   font-weight: bold;
-  font-size: 80px;
+  font-size: 60px;
   font-family: "Radio Canada", sans-serif;
   color: #34495e;
 }
@@ -83,7 +91,7 @@ input {
 .weekDays {
   text-align: center;
   font-size: 18px;
-  color: #34495e;
+  color: rgb(38 32 65 / 40%);
   padding: 14px;
 }
 
@@ -95,8 +103,7 @@ input {
 }
 
 .my-city {
-  margin: 30px 50px;
-  padding: 20px 40px;
+  margin: 0px 100px;
   text-align: center;
 }
 
@@ -108,19 +115,19 @@ input {
 
 .win-hum {
   font-size: 22px;
-  color: #34495e;
+  color: rgb(38 32 65 / 40%);
   position: relative;
   right: 0px;
   top: 15px;
-  margin: 10px 30px 30px 90px;
+  margin: 0px 30px 0px 90px;
   padding: 10px 90px;
   list-style: none;
   text-align: center;
 }
 
 .week-weather {
-  margin: 40px 0px 40px 0px;
-  padding: 60px 0px;
+  margin: 20px 0px 20px 0px;
+  padding: 40px 0px;
   text-align: center;
 }
 
