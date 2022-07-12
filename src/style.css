@@ -4,7 +4,7 @@
 
 .full-page {
   max-width: 900px;
-  background-color: white;
+  background-color: #f3f9ff;
   height: 100%;
   margin: 60px auto;
   font-family: "Radio Canada", sans-serif;
@@ -55,7 +55,7 @@
 }
 
 .input-button:hover {
-  background-color: #faf4b7;
+  background-color: #e4de97;
   color: white;
 }
 .location-button:hover {
@@ -88,6 +88,11 @@
   font-weight: bold;
   font-family: "Radio Canada", sans-serif;
   color: #34495e;
+  text-align: left;
+}
+
+#temperature {
+  text-align: right;
 }
 
 .weekDays {
@@ -101,7 +106,6 @@
   text-align: center;
   font-size: 24px;
   color: #34495e;
-  font-weight: bold;
 }
 
 .my-city {
@@ -111,7 +115,7 @@
 
 .temp {
   text-align: center;
-  color: #34495e;
+  color: #6aa1c2;
   font-size: 22px;
 }
 
