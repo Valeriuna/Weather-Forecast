@@ -124,7 +124,7 @@ let celsiusTemp = null;
 function convertToCelsius(event) {
   event.preventDefault();
   let temperature = document.querySelector("#temperature");
-  temperature.innerHTML = 19;
+  temperature.innerHTML = Math.round(celsiusTemp);
 }
 let celsiusLink = document.querySelector("#celcium");
 celsiusLink.addEventListener("click", convertToCelsius);
