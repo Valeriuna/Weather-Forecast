@@ -106,3 +106,20 @@ form.addEventListener("submit", handleSubmit);
 
 ///
 search("Paris");
+
+////
+function convertToFahrenheit(event) {
+  event.preventDefault();
+  let temperature = document.querySelector("#temperature");
+  temperature.innerHTML = 66;
+}
+let fahrenheitLink = document.querySelector("#fahrenheit");
+fahrenheitLink.addEventListener("click", convertToFahrenheit);
+
+function convertToCelsius(event) {
+  event.preventDefault();
+  let temperature = document.querySelector("#temperature");
+  temperature.innerHTML = 19;
+}
+let celsiusLink = document.querySelector("#celcium");
+celsiusLink.addEventListener("click", convertToCelsius);
