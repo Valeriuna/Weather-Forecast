@@ -144,3 +144,17 @@
   padding: 10px 0 0;
   margin: 10px 0 0;
 }
+
+.units .active {
+  color: #34495e;
+  text-decoration: none;
+  cursor: default;
+}
+
+#fahrenheit {
+  text-decoration: none;
+}
+
+.units .active:hover {
+  text-decoration: none;
+}

@@ -112,8 +112,10 @@ search("Paris");
 ////
 function convertToFahrenheit(event) {
   event.preventDefault();
-  let farenheitTemp = (celsiusTemp * 9) / 5 + 32;
   let temperature = document.querySelector("#temperature");
+  celsiusLink.classList.remove("active");
+  fahrenheitLink.classList.add("active");
+  let farenheitTemp = (celsiusTemp * 9) / 5 + 32;
   temperature.innerHTML = Math.round(farenheitTemp);
 }
 let fahrenheitLink = document.querySelector("#fahrenheit");
@@ -123,6 +125,8 @@ let celsiusTemp = null;
 
 function convertToCelsius(event) {
   event.preventDefault();
+  celsiusLink.classList.add("active");
+  fahrenheitLink.classList.remove("active");
   let temperature = document.querySelector("#temperature");
   temperature.innerHTML = Math.round(celsiusTemp);
 }
