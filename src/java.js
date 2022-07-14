@@ -60,6 +60,8 @@ function showTemperature(response) {
     `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`
   );
   iconElement.setAttribute("alt", response.data.weather[0].description);
+
+  celsiusTemp = response.data.main.temp;
 }
 
 //City
@@ -110,11 +112,14 @@ search("Paris");
 ////
 function convertToFahrenheit(event) {
   event.preventDefault();
+  let farenheitTemp = (celsiusTemp * 9) / 5 + 32;
   let temperature = document.querySelector("#temperature");
-  temperature.innerHTML = 66;
+  temperature.innerHTML = Math.round(farenheitTemp);
 }
 let fahrenheitLink = document.querySelector("#fahrenheit");
 fahrenheitLink.addEventListener("click", convertToFahrenheit);
+
+let celsiusTemp = null;
 
 function convertToCelsius(event) {
   event.preventDefault();
